@@ -1,0 +1,218 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: Open Sans;
+    Font-size: 18px;
+}
+
+
+.bottun-one {
+    position: absolute;
+    top: 3%;
+    right: 20px;
+    background-color: white;
+    width: 8%;
+    padding: 5px;
+    height: 20px;
+    color: black;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+}
+
+.bottun-two {
+    position: absolute;
+    bottom: -40px;
+    left: 20px;
+    background-color: hsl(322, 100%, 66%);
+    width: 35%;
+    padding-top: 8px;
+    height: 25px;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.button-three {
+    background-color: hsl(322, 100%, 66%);
+    width: 50%;
+    padding-top: 15px;
+    height: 30px;
+    color: white;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bolder;
+
+}
+
+.sectionone-container {
+    width: 100%;
+    display: flex;
+
+}
+
+
+
+.sectionone-left {
+    width: 30%;
+    position: absolute;
+    left: 5%;
+    top: 15%;
+
+}
+
+.section-onebg {
+    width: 100%;
+    position: relative;
+    background-color: hsl(193, 100%, 96%);
+
+}
+
+.phone-bg {
+    position: absolute;
+    right: 100px;
+    top: 80px
+}
+
+.huddle {
+    position: absolute;
+    left: 5%;
+    top: 3%;
+}
+
+.section-one {
+    background-color: hsl(193, 100%, 96%);
+}
+
+.sectiontwo-container,
+.sectionfour-container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    box-shadow: 1px 1px 10px 1px  rgba(0, 0, 0, 0.2);
+    margin-top: 5%;
+    height: 300px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.sectiontwo-left,
+.sectionfour-left {
+    padding-top: 5%;
+    text-align: left;
+    padding-left: 100px;
+    width: 40%;
+
+}
+
+.sectiontwo-bg,
+.sectionfour-bg {
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    margin-left: 5%;
+    width: 50%;
+}
+
+.sectionthree-container {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 5%;
+    height: 300px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.sectionthree-right {
+    text-align: left;
+    width: 35%;
+    margin-left: 10%;
+    padding-top: 3%;
+
+}
+
+.sectionthree-bg {
+    display: flex;
+    justify-content: start;
+    width: 40%;
+    padding-left: 100px;
+    padding-top: 3%;
+}
+
+.sectionfive-container {
+ 
+    top: 5%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-top: 5%;
+    height: 200px;
+    width: 30%;
+    border-radius: 5px;
+}
+footer{
+    
+    background-color: hsl(192, 100%, 9%);
+    height: 50%;
+    
+}
+
+.foo{
+    margin-left: 5%;
+   color: white;
+    margin-top: 100px;
+    display: flex;
+    height: 100%;
+  
+}
+.left1{
+    margin: 10px;
+    padding: 50px;
+    width: 20%;
+
+}
+
+.left-about, .left-career{
+width: 20%;
+margin-top: 110px;
+
+}
+
+.left-career{
+    width: 10%;
+
+}
+.left-logo{
+width: 30;
+margin-top: 110px;
+}
+.copyright{
+    
+    width: 100%;
+    bottom: 5px;
+    right: 10px;
+
+ text-align: end;
+  background-color: white;
+}
+li{
+    font-size: 15px;
+    font-weight: bolder;
+    list-style-type: none;
+    padding: 10px;
+}
